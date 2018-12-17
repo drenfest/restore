@@ -1,0 +1,548 @@
+/* 
+ Theme Name:     mrfixer-divi-child-theme
+ Author:         markhendriksen.com
+ Author URI:     https://www.markhendriksen.com
+ Template:       Divi
+ Version:        1.0
+*/ 
+
+
+/* ----------- PUT YOUR CUSTOM CSS BELOW THIS LINE -- DO NOT EDIT ABOVE THIS LINE --------------------------- */ 
+
+/* ####### CHANGE COLORS ######## */
+
+/* ######## MENU COLORS ######### */
+
+.custom_menu  .fullwidth-menu li>a:hover,
+.custom_menu .fullwidth-menu .current-menu-item {
+	background-color: #ff5c00;
+}
+
+.custom_menu .fullwidth-menu li ul.sub-menu li a {
+	background-color: #ff5c00;
+}
+
+/* ######## MOBILE HAMBURGER ######### */
+
+.mobile_menu_bar:before {
+	color: #fff;
+}
+
+/* ######## HOME PAGE CONTACT BORDER ######### */
+
+.home_contactform {
+	border: 5px solid #fff;
+}
+
+/* ######## HOME PROJECT BUTTON COLOR ######### */
+
+.button_project a {
+	background-color: #3c3d42;
+    color: #fff;
+}
+
+/* ######## BUTTON SINGLE BLOG POST ######### */
+
+.more-link {
+    background-color: #f04b24;
+    color: #fff;
+}
+
+/* ######### SIDEBAR WIDGETS ########## */
+
+.et_pb_widget {
+border: 1px solid #e5e5e5;
+border-top: 5px solid #13a89e;
+}
+
+/* ######### WIDGET CTA ########## */
+
+.button a {
+background-color: #13a89e;
+color: #fff !important;
+}
+
+.button a:hover {
+background-color: #3c3d42;
+}
+
+/* ######### WIDGET REVIEW ########## */
+
+.review_title {
+color: #f04b24;
+}
+
+/* ###### SIDEBAR MENU ###### */
+
+.et_pb_widget_area .menu .menu-item {
+	background-color: #e5e5e5;
+}
+
+.et_pb_widget_area .menu .menu-item:hover {
+	background-color: #f04b24;
+}
+
+.et_pb_widget_area .menu .menu-item:hover a {
+	color: #fff;
+}
+
+.et_pb_widget_area .menu .menu-item a {
+	color: #444;
+}
+
+.et_pb_widget_area .menu .current-menu-item {
+	background-color: #f04b24;
+}
+
+.et_pb_widget_area .menu .current-menu-item a {
+	color: #fff !important;
+}
+
+/* ######## LINE TITLES ######### */
+
+.title_line h1:before,
+.title_line h1:after,
+.title_line h2:before,
+.title_line h2:after,
+.title_line h3:before,
+.title_line h3:after {
+  background: #ff5c00;
+}
+
+.title_line_white h2:before,
+.title_line_white h2:after {
+  background: #fff;	
+}
+
+
+/* ######### END COLORS ########## */
+
+/* ######## BADGE ######### */
+
+@media (min-width: 981px) {
+.image_badge {
+	position: absolute;
+}
+
+.image_badge img {
+    bottom: 71px;
+	left: 60px;
+}}
+
+@media (max-width: 980px) {
+.bottom_cta .et_pb_text_inner {
+	text-align: center;
+}}
+
+.blurb_click:hover {
+	cursor: pointer;
+}
+
+/* ##### TOP HEADER ##### */
+
+#main-header {
+	display: none;
+}
+
+#page-container {
+	padding-top: 0px !important;
+}
+
+.top_phone_number h3 {
+	padding-bottom: 3px;
+}
+
+@media (max-width: 980px) {
+.cta_home_below_image {
+    margin-bottom: 0px;
+}}
+
+.phone_button_header .et_pb_button_module_wrapper {
+	margin-bottom: 20px !important;
+}
+
+@media (min-width: 981px) and (max-width: 1200px) {
+.phone_number_button  {
+	font-size: 24px !important;
+}}
+
+/* ##### CUSTOM ROW ##### */
+
+@media (min-width: 981px) and (max-width: 1250px) {
+.et_pb_section .custom_row_95 {
+	max-width: 95%!important;
+    width: 95% !important;
+}}
+
+@media (min-width: 981px) and (max-width: 1650px) {
+#main-content .custom_special_section_row_95 .et_pb_row {
+	max-width: 95%!important;
+    width: 95% !important;
+}
+	
+.et_pb_column .home_project_title h2 {
+	font-size: 20px;
+}
+
+.home_project_big_text p {
+	font-size: 34px;
+}
+
+.custom_footer_location_column .et_pb_column {
+	padding-left: 0px;		
+}}
+
+.home #page-container {
+	overflow-y: unset !important;
+}
+
+/* ##### MENU ##### */
+
+.custom_menu .et_pb_fullwidth_menu ul.fullwidth-menu {
+	padding-top: 0px !important;
+}
+
+.custom_menu .fullwidth-menu li>a {
+	padding: 20px 35px !important;
+}
+
+.custom_menu  .fullwidth-menu li {
+	padding-right: 0px;
+	margin-right: -3px;
+}
+
+.custom_menu .fullwidth-menu .menu-item-has-children>a:first-child:after {
+    top: 18px;
+    right: 10px;
+}
+
+.custom_menu .fullwidth-menu li ul.sub-menu li a {
+    padding: 10px 25px !important;
+	margin-bottom: 5px;
+	line-height: 1.4em;
+}
+
+.custom_menu .fullwidth-menu li ul.sub-menu li:last-child a {
+	margin-bottom: 0px;
+}
+
+.custom_menu .fullwidth-menu li ul.sub-menu li.menu-item-has-children>a:first-child:after {
+    top: 10px;
+}
+
+.custom_menu .fullwidth-menu li ul.sub-menu li {
+	padding-right: 20px;
+}
+
+.custom_menu .et_pb_row {
+	width: 100%;
+}
+
+.custom_menu .fullwidth-menu li ul.sub-menu li.current-menu-item {
+    background-color: unset;
+}
+
+/* ############ CENTERED LINE ############# */
+
+.title_line h1,
+.title_line h2,
+.title_line h3 {
+  display: inline-block;
+  padding: 0 15px;
+  position: relative;
+}
+
+.title_line h1:before,
+.title_line h1:after,
+.title_line h2:before,
+.title_line h2:after,
+.title_line h3:before,
+.title_line h3:after {
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  width: 400%;
+}
+
+.title_line h1:before,
+.title_line h2:before,
+.title_line h3:before {
+  right: 100%;
+}
+
+.title_line h1:after,
+.title_line h2:after,
+.title_line h3:after {
+  left: 100%;
+}
+
+.title_line {
+  overflow: hidden;
+  text-align: center;
+}
+
+
+.custom_button_full_width .et_pb_button_module_wrapper {
+	padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* ##### CUSTOM SHADOW ##### */
+
+.custom_block_shadow {
+	box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+.home_services_blocks {
+	border: 5px solid #fff;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+
+
+.projects_shadow_home {
+	box-shadow: 10px 10px 40px 0px rgba(13, 14, 14, 0.25);	
+}
+
+.button_project a {
+    padding: 7px 15px;
+    border-radius: 2px;
+}
+
+/* ###### SIDEBAR MENU ###### */
+
+.et_pb_widget_area .menu .menu-item {
+	padding: 10px 20px 10px 20px;
+	-webkit-transition: all .3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.et_pb_widget_area .menu .menu-item a {
+	-webkit-transition: all .3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+/* ###### SINGLE PROJECT PAGE ###### */
+
+@media (min-width: 981px) and (max-width: 1750px) {
+.project_description {
+	padding-top: 0px !important;
+	padding-bottom: 50px !important;
+}}
+
+/* ###### SINGLE BLOG PAGE ###### */
+
+.single .et_pb_post {
+    margin-bottom: 0px;
+}
+
+.single .post {
+    padding-bottom: 0px;
+}
+
+#left-area {
+    padding-bottom: 0px;
+}
+
+#left-area ul li ul {
+    padding: 20px 0 20px 0px;
+}
+
+.et_pb_pagebuilder_layout.single.et_full_width_page #page-container .custom_menu .et_pb_row, .et_pb_pagebuilder_layout.single.et_full_width_portfolio_page #page-container .custom_menu .et_pb_row {
+    width: 100%;
+}
+
+.more-link {
+	display: inline-block !important;
+    padding: 1px 15px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25098039215686274);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* ############################ */
+/* ######### SIDEBAR ########## */
+/* ############################ */
+
+.et_pb_widget {
+padding: 30px;
+border-radius: 5px;
+}
+
+h4.widgettitle {
+font-size: 24px;
+font-weight: bold;
+}
+
+/* ######### WIDGET PROJECT ########## */
+
+.widget_project p,
+.cta_sidebar p {
+font-size: 14px;
+line-height: 1.5em;
+}
+
+.widget_project img {
+width: 75px;
+}
+
+.widget_project h4.widgettitle {
+padding-bottom: 20px;
+}
+
+@media all and (max-width: 1175px) and (min-width: 981px) {
+.widget_project img {
+width: 100%
+}}
+
+/* ######### WIDGET CTA ########## */
+
+.cta_sidebar {
+text-align: center;
+}
+
+.button a {
+font-size: 18px;
+font-weight: bold;
+padding: 8px;
+width: 100%;
+display: block;
+border-radius: 10px;
+text-align: center;
+margin-top: 15px;
+line-height: 1.4em;
+}
+
+/* ######### WIDGET REVIEW ########## */
+
+.review_title {
+	font-size: 30px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* ######### CONTACT PAGE ########## */
+
+@media (max-width: 980px) {
+.contact_blurb .et_pb_blurb {
+	border-right-width: 0px !important;
+	padding-bottom: 35px;
+}}
+
+/* ############# REVIEW PAGE ############# */
+
+.review .et_pb_column,
+.radial_shadow .et_pb_column {
+	box-shadow: 0px 7px 16px 0px rgba(0, 0, 0, 0.14);
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.review .et_pb_column:before,
+.radial_shadow .et_pb_column:before {
+	pointer-events: none;
+	position: absolute;
+	z-index: -1;
+	content: '';
+	top: 100%;
+	left: 5%;
+	height: 10px;
+	width: 90%;
+	opacity: 0;
+	background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+	background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.review .et_pb_column:hover,
+.radial_shadow .et_pb_column:hover {
+	-webkit-transform: translateY(-7px);
+	transform: translateY(-7px);
+	box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.2);}
+ 
+.review .et_pb_column:hover:before,
+.radial_shadow .et_pb_column:hover:before {
+ 	opacity:1;
+ 	top: 106%;
+ 	height: 15px;}
+
+.review .et_pb_column .et_pb_blurb_container {
+	padding: 0 25px;
+}
+
+/* ###### SEARCH RESULT PAGE ###### */
+
+@media (min-width: 981px) {
+.search #left-area {
+	width: 64.833%;
+}
+
+.search #sidebar {
+	width: 29.666%;
+	border-left: 1px solid #e2e2e2;
+}
+
+.search #main-content .container:before {
+    display: none !important;
+}}
+
+.search .et_pb_post a img {
+    padding-bottom: 25px;
+}
+
+.search h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.search h4.widgettitle {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.search #sidebar .et_pb_widget {
+	padding: 25px;
+	margin-bottom: 18.54%;
+}
+
+/*########### 404 page #############*/
+
+.error404 h1 {
+	padding-bottom: 25px;
+}
+
+.et_pb_fullwidth_header_subhead {
+	padding-bottom: 25px;
+}
+
+.error404 .et_pb_fullscreen .et_pb_fullwidth_header_container {
+    width: 70%;
+}
+
+.error404 .et_pb_fullwidth_header .et_pb_fullwidth_header_container.left .header-content-container.center {
+	-webkit-align-self: baseline;
+    -moz-align-self: baseline;
+    -ms-align-self: baseline;
+    align-self: baseline;
+    margin-top: 15%;
+}
